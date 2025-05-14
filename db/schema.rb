@@ -1161,7 +1161,7 @@ ActiveRecord::Schema[7.0].define(version: 2025_01_27_071719) do
     t.integer "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "apply_to_all", default: true, null: false
+    t.boolean "apply_to_all", default: true
     t.index ["product_id"], name: "index_spree_variant_property_rules_on_product_id"
   end
 
